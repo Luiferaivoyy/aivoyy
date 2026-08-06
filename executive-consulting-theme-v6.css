@@ -1,0 +1,1342 @@
+/* =====================================================
+   AI VOY — Executive Consulting Theme
+   Matte charcoal, white typography, copper accents
+   Load after styles.css
+   ===================================================== */
+
+.executive-consulting-theme {
+    --bg-primary: #171717;
+    --bg-secondary: #1d1d1d;
+    --bg-card: #222222;
+    --bg-card-hover: #262626;
+    --border-color: rgba(196, 122, 66, 0.28);
+    --border-light: rgba(196, 122, 66, 0.52);
+    --text-primary: #f6f4f1;
+    --text-secondary: #c7c3bd;
+    --text-muted: #918b84;
+    --purple-400: #d39a68;
+    --purple-500: #c47a42;
+    --purple-600: #a95f31;
+    --purple-700: #8f4e29;
+    --purple-800: #6d3b20;
+    --gradient-purple: #c47a42;
+    --gradient-text: #d39a68;
+    --shadow-glow: none;
+    background: #171717;
+}
+
+.executive-consulting-theme body,
+.executive-consulting-theme {
+    background-color: #171717;
+    color: #f6f4f1;
+}
+
+.executive-consulting-theme .gradient-text {
+    background: none;
+    -webkit-background-clip: initial;
+    -webkit-text-fill-color: #d39a68;
+    background-clip: initial;
+    color: #d39a68;
+}
+
+.executive-consulting-theme .navbar {
+    background: rgba(23, 23, 23, 0.96);
+    border-bottom: 1px solid rgba(196, 122, 66, 0.34);
+    backdrop-filter: blur(12px);
+}
+
+.executive-consulting-theme .navbar.scrolled {
+    background: rgba(23, 23, 23, 0.98);
+    border-bottom-color: rgba(196, 122, 66, 0.48);
+}
+
+.executive-consulting-theme .nav-logo-img {
+    margin-right: 0;
+}
+
+.executive-consulting-theme .nav-logo > span {
+    display: none;
+}
+
+.executive-consulting-theme .nav-links a {
+    color: #c7c3bd;
+}
+
+.executive-consulting-theme .nav-links a:hover {
+    color: #f6f4f1;
+    background: transparent;
+    box-shadow: inset 0 -1px 0 #c47a42;
+}
+
+.executive-consulting-theme .btn-primary {
+    background: #c47a42;
+    color: #171717;
+    box-shadow: none;
+    border: 1px solid #c47a42;
+    font-weight: 700;
+}
+
+.executive-consulting-theme .btn-primary:hover {
+    background: #d39a68;
+    border-color: #d39a68;
+    box-shadow: none;
+}
+
+.executive-consulting-theme .btn-secondary,
+.executive-consulting-theme .btn-outline {
+    background: transparent;
+    color: #f6f4f1;
+    border: 1px solid rgba(196, 122, 66, 0.58);
+}
+
+.executive-consulting-theme .btn-secondary:hover,
+.executive-consulting-theme .btn-outline:hover {
+    background: rgba(196, 122, 66, 0.08);
+    border-color: #c47a42;
+}
+
+.executive-consulting-theme .hero {
+    min-height: 760px;
+    padding: 150px 0 96px;
+    background-color: #171717;
+    background-image:
+        linear-gradient(90deg, rgba(23,23,23,0.97) 0%, rgba(23,23,23,0.88) 43%, rgba(23,23,23,0.43) 72%, rgba(23,23,23,0.7) 100%),
+        url("https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=2200&q=88");
+    background-size: cover;
+    background-position: center;
+    border-bottom: 1px solid rgba(196, 122, 66, 0.5);
+}
+
+.executive-consulting-theme .hero-grid-bg,
+.executive-consulting-theme .hero-glow {
+    display: none;
+}
+
+.executive-consulting-theme .hero-layout {
+    grid-template-columns: minmax(0, 1.02fr) minmax(420px, .98fr);
+    gap: 76px;
+}
+
+.executive-consulting-theme .hero-content {
+    text-align: left;
+    margin: 0;
+    max-width: 690px;
+}
+
+.executive-consulting-theme .eyebrow,
+.executive-consulting-theme .section-label,
+.executive-consulting-theme .workflow-kicker,
+.executive-consulting-theme .pricing-category {
+    color: #d39a68;
+    background: transparent;
+    border: 0;
+    padding: 0;
+    letter-spacing: .16em;
+}
+
+.executive-consulting-theme .eyebrow-dot {
+    background: #c47a42;
+    box-shadow: none;
+}
+
+.executive-consulting-theme .hero h1 {
+    max-width: 720px;
+    font-size: clamp(3.2rem, 6.4vw, 5.8rem);
+    letter-spacing: -0.045em;
+}
+
+.executive-consulting-theme .hero-subtitle {
+    color: #d3cfc9;
+    max-width: 620px;
+    margin-left: 0;
+}
+
+.executive-consulting-theme .hero-cta,
+.executive-consulting-theme .hero-trust {
+    justify-content: flex-start;
+}
+
+.executive-consulting-theme .hero-trust li svg {
+    stroke: #c47a42;
+}
+
+.executive-consulting-theme .workflow-window {
+    background: rgba(25,25,25,.92);
+    border: 1px solid rgba(196,122,66,.58);
+    box-shadow: 0 30px 80px rgba(0,0,0,.4);
+}
+
+.executive-consulting-theme .workflow-topbar,
+.executive-consulting-theme .workflow-node,
+.executive-consulting-theme .workflow-outcomes > div {
+    background: #202020;
+    border-color: rgba(196,122,66,.24);
+}
+
+.executive-consulting-theme .workflow-node-active {
+    background: #25211e;
+    border-color: #c47a42;
+    box-shadow: none;
+}
+
+.executive-consulting-theme .status-pill,
+.executive-consulting-theme .node-number,
+.executive-consulting-theme .automation-icon {
+    color: #d39a68;
+    background: rgba(196,122,66,.08);
+    border-color: rgba(196,122,66,.36);
+}
+
+.executive-consulting-theme .executive-proof {
+    background: #1a1a1a;
+    border-bottom: 1px solid rgba(196,122,66,.38);
+}
+
+.executive-consulting-theme .executive-proof-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.executive-consulting-theme .executive-proof-grid > div {
+    padding: 28px 34px;
+    border-right: 1px solid rgba(196,122,66,.3);
+}
+
+.executive-consulting-theme .executive-proof-grid > div:last-child {
+    border-right: 0;
+}
+
+.executive-consulting-theme .executive-proof strong,
+.executive-consulting-theme .executive-proof span {
+    display: block;
+}
+
+.executive-consulting-theme .executive-proof strong {
+    color: #f6f4f1;
+    font-size: .96rem;
+    margin-bottom: 5px;
+}
+
+.executive-consulting-theme .executive-proof span {
+    color: #918b84;
+    font-size: .82rem;
+}
+
+.executive-consulting-theme .integration-strip,
+.executive-consulting-theme .section,
+.executive-consulting-theme .final-cta,
+.executive-consulting-theme .footer {
+    border-top: 1px solid rgba(196,122,66,.28);
+}
+
+.executive-consulting-theme .section {
+    background: #171717;
+}
+
+.executive-consulting-theme .process,
+.executive-consulting-theme .pricing-schedule,
+.executive-consulting-theme .assessment,
+.executive-consulting-theme .faq {
+    background: #1b1b1b;
+}
+
+.executive-consulting-theme .service-card,
+.executive-consulting-theme .process-step,
+.executive-consulting-theme .case-card,
+.executive-consulting-theme .pricing-service-card,
+.executive-consulting-theme .benefit-card,
+.executive-consulting-theme .faq-item,
+.executive-consulting-theme .pricing-card,
+.executive-consulting-theme .roi-calculator-panel,
+.executive-consulting-theme .roi-results-panel {
+    background: #222222;
+    border-color: rgba(196,122,66,.24);
+    box-shadow: none;
+}
+
+.executive-consulting-theme .service-card:hover,
+.executive-consulting-theme .case-card:hover,
+.executive-consulting-theme .pricing-service-card:hover,
+.executive-consulting-theme .benefit-card:hover {
+    background: #252525;
+    border-color: #c47a42;
+    transform: translateY(-2px);
+}
+
+.executive-consulting-theme .service-icon,
+.executive-consulting-theme .step-icon,
+.executive-consulting-theme .pricing-value-icon,
+.executive-consulting-theme .benefit-icon {
+    color: #d39a68;
+    background: rgba(196,122,66,.08);
+    border-color: rgba(196,122,66,.3);
+}
+
+.executive-consulting-theme .pricing-orb,
+.executive-consulting-theme .assessment-glow {
+    display: none;
+}
+
+.executive-consulting-theme .pricing-value-bar,
+.executive-consulting-theme .pricing-footer,
+.executive-consulting-theme .assessment-card,
+.executive-consulting-theme .roi-highlight {
+    background: #202020;
+    border-color: rgba(196,122,66,.48);
+}
+
+.executive-consulting-theme input[type="range"] {
+    accent-color: #c47a42;
+}
+
+.executive-consulting-theme input:focus,
+.executive-consulting-theme select:focus {
+    border-color: #c47a42;
+    box-shadow: 0 0 0 3px rgba(196,122,66,.12);
+}
+
+.executive-consulting-theme .executive-image-panel {
+    min-height: 460px;
+    margin-bottom: 24px;
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+    border: 1px solid rgba(196,122,66,.34);
+    background-image:
+        linear-gradient(0deg, rgba(23,23,23,.95) 0%, rgba(23,23,23,.12) 70%),
+        url("https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1600&q=88");
+    background-size: cover;
+    background-position: center;
+}
+
+.executive-consulting-theme .executive-image-caption {
+    width: 100%;
+    padding: 34px;
+    border-top: 1px solid rgba(196,122,66,.42);
+}
+
+.executive-consulting-theme .executive-image-caption span,
+.executive-consulting-theme .executive-image-caption strong {
+    display: block;
+}
+
+.executive-consulting-theme .executive-image-caption span {
+    color: #d39a68;
+    text-transform: uppercase;
+    letter-spacing: .14em;
+    font-size: .72rem;
+    margin-bottom: 8px;
+}
+
+.executive-consulting-theme .executive-image-caption strong {
+    max-width: 430px;
+    font-size: 1.35rem;
+    line-height: 1.35;
+}
+
+.executive-consulting-theme .about-grid {
+    grid-template-columns: .8fr 1.2fr;
+}
+
+.executive-consulting-theme .footer {
+    background: #141414;
+}
+
+.executive-consulting-theme .faq-icon {
+    width: 20px;
+    height: 20px;
+    flex: 0 0 20px;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 2;
+}
+
+@media (max-width: 1024px) {
+    .executive-consulting-theme .hero-layout,
+    .executive-consulting-theme .about-grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* The sticky column only makes sense once it sits beside the rest of
+       the section; once the grid collapses to one column here, it must
+       unstick immediately rather than waiting for the narrower 900px
+       breakpoint where styles.css resets it — otherwise it stays pinned
+       in place while the stacked content scrolls up underneath it. */
+    .executive-consulting-theme .about-copy {
+        position: static;
+    }
+
+    .executive-consulting-theme .hero {
+        background-position: 65% center;
+    }
+}
+
+@media (max-width: 768px) {
+    .executive-consulting-theme .hero {
+        min-height: auto;
+        padding: 122px 0 74px;
+        background-image:
+            linear-gradient(rgba(23,23,23,.91), rgba(23,23,23,.94)),
+            url("https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&q=82");
+    }
+
+    .executive-consulting-theme .hero-layout {
+        gap: 42px;
+    }
+
+    .executive-consulting-theme .executive-proof-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .executive-consulting-theme .executive-proof-grid > div {
+        border-right: 0;
+        border-bottom: 1px solid rgba(196,122,66,.25);
+    }
+
+    .executive-consulting-theme .executive-proof-grid > div:last-child {
+        border-bottom: 0;
+    }
+
+}
+
+/* =====================================================
+   Pricing clarity + interactive operational demo — v2
+   ===================================================== */
+
+.executive-consulting-theme .pricing-prefix {
+    display: block;
+    margin-bottom: 6px;
+    color: #9f9992;
+    font-size: .7rem;
+    font-weight: 600;
+    letter-spacing: .13em;
+    line-height: 1.2;
+    text-transform: uppercase;
+}
+
+.executive-consulting-theme .pricing-range-custom {
+    font-size: clamp(1.55rem, 2.4vw, 2.15rem);
+    letter-spacing: -.025em;
+}
+
+.executive-consulting-theme .operational-demo .workflow-window {
+    overflow: hidden;
+}
+
+.executive-consulting-theme .workflow-description {
+    max-width: 520px;
+    margin-top: 8px;
+    color: #9f9992;
+    font-size: .78rem;
+    line-height: 1.55;
+}
+
+.executive-consulting-theme .demo-play-toggle {
+    display: inline-flex;
+    flex: 0 0 auto;
+    align-items: center;
+    gap: 7px;
+    min-height: 36px;
+    padding: 8px 12px;
+    border: 1px solid rgba(196,122,66,.5);
+    border-radius: 999px;
+    background: transparent;
+    color: #f6f4f1;
+    font: inherit;
+    font-size: .72rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.executive-consulting-theme .demo-play-toggle:hover {
+    background: rgba(196,122,66,.1);
+    border-color: #c47a42;
+}
+
+.executive-consulting-theme .demo-play-toggle svg {
+    width: 14px;
+    height: 14px;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+.executive-consulting-theme .demo-play-toggle .play-icon { display: none; }
+.executive-consulting-theme .demo-play-toggle.is-paused .pause-icon { display: none; }
+.executive-consulting-theme .demo-play-toggle.is-paused .play-icon { display: block; }
+
+.executive-consulting-theme .demo-progress {
+    height: 2px;
+    margin: 20px 0 15px;
+    overflow: hidden;
+    background: rgba(255,255,255,.09);
+}
+
+.executive-consulting-theme .demo-progress span {
+    display: block;
+    width: 0;
+    height: 100%;
+    background: #c47a42;
+    transition: width .2s linear;
+}
+
+.executive-consulting-theme .demo-stage-nav {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    border-top: 1px solid rgba(196,122,66,.22);
+    border-bottom: 1px solid rgba(196,122,66,.22);
+}
+
+.executive-consulting-theme .demo-stage {
+    position: relative;
+    display: flex;
+    min-width: 0;
+    align-items: center;
+    gap: 7px;
+    padding: 11px 8px;
+    border: 0;
+    border-right: 1px solid rgba(196,122,66,.18);
+    background: transparent;
+    color: #837e78;
+    font: inherit;
+    text-align: left;
+    cursor: pointer;
+}
+
+.executive-consulting-theme .demo-stage:last-child { border-right: 0; }
+.executive-consulting-theme .demo-stage span { font-size: .61rem; letter-spacing: .08em; }
+.executive-consulting-theme .demo-stage strong { overflow: hidden; font-size: .67rem; font-weight: 600; text-overflow: ellipsis; white-space: nowrap; }
+.executive-consulting-theme .demo-stage:hover { color: #f6f4f1; background: rgba(196,122,66,.05); }
+.executive-consulting-theme .demo-stage.is-complete { color: #b4aea7; }
+.executive-consulting-theme .demo-stage.is-active { color: #d39a68; background: rgba(196,122,66,.08); }
+.executive-consulting-theme .demo-stage.is-active::after {
+    position: absolute;
+    right: 0;
+    bottom: -1px;
+    left: 0;
+    height: 2px;
+    background: #c47a42;
+    content: "";
+}
+
+.executive-consulting-theme .demo-display {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 142px;
+    gap: 14px;
+    padding-top: 16px;
+}
+
+.executive-consulting-theme .demo-process-panel {
+    min-width: 0;
+    padding: 16px;
+    border: 1px solid rgba(196,122,66,.24);
+    background: #1e1e1e;
+}
+
+.executive-consulting-theme .demo-process-heading {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 14px;
+}
+
+.executive-consulting-theme .demo-process-heading span:first-child {
+    display: block;
+    color: #8f8982;
+    font-size: .62rem;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+}
+
+.executive-consulting-theme .demo-process-heading h3 {
+    margin-top: 5px;
+    font-size: .94rem;
+    line-height: 1.35;
+}
+
+.executive-consulting-theme .demo-process-panel > p {
+    min-height: 52px;
+    margin-top: 9px;
+    color: #aaa49d;
+    font-size: .72rem;
+    line-height: 1.55;
+}
+
+.executive-consulting-theme .demo-state {
+    flex: 0 0 auto;
+    padding: 5px 8px;
+    border: 1px solid rgba(196,122,66,.36);
+    border-radius: 999px;
+    color: #d39a68 !important;
+    background: rgba(196,122,66,.08);
+    font-size: .57rem !important;
+    letter-spacing: .08em !important;
+}
+
+.executive-consulting-theme .demo-activity {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 14px;
+    padding: 10px 11px;
+    border-left: 2px solid #c47a42;
+    background: #24211f;
+}
+
+.executive-consulting-theme .activity-dot {
+    width: 7px;
+    height: 7px;
+    flex: 0 0 7px;
+    border-radius: 50%;
+    background: #d39a68;
+    animation: executiveActivityPulse 1.25s ease-in-out infinite;
+}
+
+.executive-consulting-theme .demo-activity small,
+.executive-consulting-theme .demo-activity strong { display: block; }
+.executive-consulting-theme .demo-activity small { color: #8f8982; font-size: .56rem; letter-spacing: .09em; text-transform: uppercase; }
+.executive-consulting-theme .demo-activity strong { margin-top: 2px; font-size: .68rem; font-weight: 600; }
+
+.executive-consulting-theme .demo-system-row {
+    display: flex;
+    min-height: 34px;
+    align-items: center;
+    gap: 7px;
+    margin-top: 12px;
+    color: #aaa49d;
+    font-size: .61rem;
+}
+
+.executive-consulting-theme .demo-system-row span {
+    padding: 5px 7px;
+    border: 1px solid rgba(255,255,255,.09);
+    background: #242424;
+}
+
+.executive-consulting-theme .demo-system-row i { color: #c47a42; font-style: normal; }
+
+.executive-consulting-theme .demo-metrics {
+    display: grid;
+    gap: 8px;
+}
+
+.executive-consulting-theme .demo-metrics > div {
+    padding: 11px;
+    border: 1px solid rgba(196,122,66,.22);
+    background: #202020;
+}
+
+.executive-consulting-theme .demo-metrics span,
+.executive-consulting-theme .demo-metrics strong,
+.executive-consulting-theme .demo-metrics small { display: block; }
+.executive-consulting-theme .demo-metrics span { color: #8f8982; font-size: .58rem; text-transform: uppercase; letter-spacing: .08em; }
+.executive-consulting-theme .demo-metrics strong { margin-top: 4px; color: #f6f4f1; font-size: 1rem; }
+.executive-consulting-theme .demo-metrics small { margin-top: 2px; color: #77716b; font-size: .54rem; line-height: 1.3; }
+
+.executive-consulting-theme .demo-caption {
+    display: flex;
+    align-items: flex-start;
+    gap: 9px;
+    margin-top: 13px;
+}
+.executive-consulting-theme .demo-caption span {
+    flex: 0 0 auto;
+    padding: 3px 6px;
+    border: 1px solid rgba(196,122,66,.34);
+    color: #d39a68;
+    font-size: .53rem;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+}
+.executive-consulting-theme .demo-caption p { color: #77716b; font-size: .57rem; line-height: 1.45; }
+
+.executive-consulting-theme .operational-demo.is-transitioning .demo-process-panel,
+.executive-consulting-theme .operational-demo.is-transitioning .demo-metrics {
+    animation: executivePanelIn .32s ease both;
+}
+
+@keyframes executiveActivityPulse {
+    0%, 100% { opacity: .42; transform: scale(.88); }
+    50% { opacity: 1; transform: scale(1.18); }
+}
+
+@keyframes executivePanelIn {
+    from { opacity: .35; transform: translateY(5px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .executive-consulting-theme .activity-dot { animation: none; }
+    .executive-consulting-theme .operational-demo.is-transitioning .demo-process-panel,
+    .executive-consulting-theme .operational-demo.is-transitioning .demo-metrics { animation: none; }
+}
+
+@media (max-width: 760px) {
+    .executive-consulting-theme .workflow-heading { align-items: flex-start; }
+    .executive-consulting-theme .demo-stage-nav { grid-template-columns: 1fr; }
+    .executive-consulting-theme .demo-stage { border-right: 0; border-bottom: 1px solid rgba(196,122,66,.15); }
+    .executive-consulting-theme .demo-stage:last-child { border-bottom: 0; }
+    .executive-consulting-theme .demo-stage.is-active::after { top: 0; right: auto; bottom: 0; width: 2px; height: auto; }
+    .executive-consulting-theme .demo-display { grid-template-columns: 1fr; }
+    .executive-consulting-theme .demo-metrics { grid-template-columns: repeat(3, 1fr); }
+}
+
+@media (max-width: 500px) {
+    .executive-consulting-theme .workflow-heading { display: grid; }
+    .executive-consulting-theme .demo-play-toggle { justify-self: start; }
+    .executive-consulting-theme .demo-process-heading { display: grid; }
+    .executive-consulting-theme .demo-state { justify-self: start; }
+    .executive-consulting-theme .demo-system-row { flex-wrap: wrap; }
+    .executive-consulting-theme .demo-metrics { grid-template-columns: 1fr; }
+}
+
+
+/* =====================================================
+   Pricing spacing refinement — v3
+   ===================================================== */
+.executive-consulting-theme .pricing-price-block {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 22px;
+    min-height: 82px;
+}
+
+.executive-consulting-theme .pricing-price-block .pricing-prefix {
+    margin: 0 0 12px;
+}
+
+.executive-consulting-theme .pricing-price-block .pricing-range {
+    margin: 0;
+    line-height: .95;
+}
+
+.executive-consulting-theme .pricing-price-block > small {
+    display: block;
+    margin-top: 12px;
+    color: #9f9992;
+    font-size: .78rem;
+    line-height: 1.45;
+}
+
+.executive-consulting-theme .pricing-price-block-custom {
+    min-height: 104px;
+}
+
+.executive-consulting-theme .pricing-price-block-custom .pricing-range-custom {
+    max-width: 100%;
+    font-size: clamp(1.65rem, 2.35vw, 2.25rem);
+    line-height: 1.05;
+}
+
+@media (max-width: 640px) {
+    .executive-consulting-theme .pricing-price-block {
+        margin-top: 18px;
+        min-height: 0;
+    }
+}
+
+/* =====================================================
+   Executive operations interface + monogram refinement — v4
+   ===================================================== */
+
+.executive-consulting-theme .operational-demo .workflow-window {
+    position: relative;
+    background:
+        linear-gradient(rgba(255,255,255,.018) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255,255,255,.018) 1px, transparent 1px),
+        #181a1b;
+    background-size: 28px 28px;
+    border-color: rgba(196,122,66,.5);
+    box-shadow: 0 32px 90px rgba(0,0,0,.48), inset 0 1px rgba(255,255,255,.025);
+}
+
+.executive-consulting-theme .operational-demo .workflow-window::before {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background: linear-gradient(110deg, transparent 15%, rgba(196,122,66,.035) 49%, transparent 65%);
+    content: "";
+    animation: executiveScan 8s linear infinite;
+}
+
+.executive-consulting-theme .workflow-topbar {
+    position: relative;
+    z-index: 1;
+    background: rgba(24,26,27,.94);
+    border-bottom: 1px solid rgba(196,122,66,.3);
+}
+
+.executive-consulting-theme .window-title {
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    font-size: .62rem;
+}
+
+.executive-consulting-theme .status-pill {
+    background: rgba(196,122,66,.08);
+    border: 1px solid rgba(196,122,66,.3);
+}
+
+.executive-consulting-theme .status-pill span {
+    box-shadow: 0 0 0 4px rgba(196,122,66,.08);
+}
+
+.executive-consulting-theme .workflow-body {
+    position: relative;
+    z-index: 1;
+}
+
+.executive-consulting-theme .demo-stage-nav {
+    background: rgba(12,13,14,.32);
+}
+
+.executive-consulting-theme .demo-stage {
+    transition: color .25s ease, background .25s ease;
+}
+
+.executive-consulting-theme .demo-stage.is-active {
+    background: rgba(196,122,66,.1);
+}
+
+.executive-consulting-theme .demo-stage.is-active strong {
+    color: #f7f3ee;
+}
+
+.executive-consulting-theme .demo-process-panel {
+    position: relative;
+    overflow: hidden;
+    padding: 18px;
+    background: rgba(25,27,28,.9);
+    border-color: rgba(196,122,66,.3);
+}
+
+.executive-consulting-theme .demo-process-panel::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 74px;
+    height: 74px;
+    border-top: 1px solid rgba(196,122,66,.34);
+    border-right: 1px solid rgba(196,122,66,.34);
+    content: "";
+    clip-path: polygon(44% 0,100% 0,100% 56%);
+}
+
+.executive-consulting-theme .demo-signal-map {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    align-items: start;
+    gap: 0;
+    margin: 18px 0 17px;
+    padding-top: 4px;
+}
+
+.executive-consulting-theme .signal-track {
+    position: absolute;
+    top: 17px;
+    left: 10%;
+    right: 10%;
+    height: 1px;
+    overflow: visible;
+    background: rgba(255,255,255,.12);
+}
+
+.executive-consulting-theme .signal-fill {
+    display: block;
+    width: 0;
+    height: 100%;
+    background: #c47a42;
+    box-shadow: 0 0 12px rgba(196,122,66,.35);
+    transition: width .55s cubic-bezier(.22,1,.36,1);
+}
+
+.executive-consulting-theme .signal-pulse {
+    position: absolute;
+    top: -3px;
+    left: 0;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #e0a472;
+    box-shadow: 0 0 14px rgba(224,164,114,.85);
+    animation: signalTravel 3.4s linear infinite;
+}
+
+.executive-consulting-theme .signal-node {
+    position: relative;
+    z-index: 2;
+    display: grid;
+    justify-items: center;
+    gap: 7px;
+    color: #77736e;
+    transition: color .35s ease, transform .35s ease;
+}
+
+.executive-consulting-theme .signal-node > span {
+    display: grid;
+    width: 28px;
+    height: 28px;
+    place-items: center;
+    border: 1px solid rgba(255,255,255,.15);
+    border-radius: 50%;
+    background: #1b1d1e;
+    font-size: .54rem;
+    letter-spacing: .06em;
+    transition: border-color .35s ease, background .35s ease, box-shadow .35s ease;
+}
+
+.executive-consulting-theme .signal-node small {
+    font-size: .52rem;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+}
+
+.executive-consulting-theme[data-stage="0"] .signal-node:nth-of-type(2),
+.executive-consulting-theme[data-stage="1"] .signal-node:nth-of-type(-n+3),
+.executive-consulting-theme[data-stage="2"] .signal-node:nth-of-type(-n+4),
+.executive-consulting-theme[data-stage="3"] .signal-node:nth-of-type(-n+5),
+.executive-consulting-theme[data-stage="4"] .signal-node:nth-of-type(-n+6) { color: #d6a071; }
+
+.executive-consulting-theme .operational-demo[data-stage="0"] .signal-node[data-signal-stage="0"],
+.executive-consulting-theme .operational-demo[data-stage="1"] .signal-node[data-signal-stage="1"],
+.executive-consulting-theme .operational-demo[data-stage="2"] .signal-node[data-signal-stage="2"],
+.executive-consulting-theme .operational-demo[data-stage="3"] .signal-node[data-signal-stage="3"],
+.executive-consulting-theme .operational-demo[data-stage="4"] .signal-node[data-signal-stage="4"] {
+    color: #f7f3ee;
+    transform: translateY(-2px);
+}
+
+.executive-consulting-theme .operational-demo[data-stage="0"] .signal-node[data-signal-stage="0"] > span,
+.executive-consulting-theme .operational-demo[data-stage="1"] .signal-node[data-signal-stage="1"] > span,
+.executive-consulting-theme .operational-demo[data-stage="2"] .signal-node[data-signal-stage="2"] > span,
+.executive-consulting-theme .operational-demo[data-stage="3"] .signal-node[data-signal-stage="3"] > span,
+.executive-consulting-theme .operational-demo[data-stage="4"] .signal-node[data-signal-stage="4"] > span {
+    border-color: #d39a68;
+    background: #2a211b;
+    box-shadow: 0 0 0 4px rgba(196,122,66,.09), 0 0 20px rgba(196,122,66,.18);
+}
+
+.executive-consulting-theme .operational-demo[data-stage="0"] .signal-fill { width: 0%; }
+.executive-consulting-theme .operational-demo[data-stage="1"] .signal-fill { width: 25%; }
+.executive-consulting-theme .operational-demo[data-stage="2"] .signal-fill { width: 50%; }
+.executive-consulting-theme .operational-demo[data-stage="3"] .signal-fill { width: 75%; }
+.executive-consulting-theme .operational-demo[data-stage="4"] .signal-fill { width: 100%; }
+
+.executive-consulting-theme .demo-activity {
+    position: relative;
+    border: 1px solid rgba(196,122,66,.18);
+    border-left: 2px solid #c47a42;
+    background: rgba(196,122,66,.055);
+}
+
+.executive-consulting-theme .demo-system-row span {
+    position: relative;
+    border-color: rgba(196,122,66,.2);
+    background: #1c1e1f;
+}
+
+.executive-consulting-theme .demo-system-row i {
+    animation: arrowPulse 1.4s ease-in-out infinite;
+}
+
+.executive-consulting-theme .demo-metrics > div {
+    position: relative;
+    overflow: hidden;
+    background: rgba(28,30,31,.9);
+    border-color: rgba(196,122,66,.24);
+}
+
+.executive-consulting-theme .demo-metrics > div::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: #c47a42;
+    opacity: .65;
+    content: "";
+}
+
+.executive-consulting-theme .demo-metrics strong {
+    font-variant-numeric: tabular-nums;
+    letter-spacing: -.03em;
+}
+
+@keyframes executiveScan {
+    from { transform: translateX(-70%); }
+    to { transform: translateX(70%); }
+}
+
+@keyframes signalTravel {
+    0% { left: 0; opacity: 0; }
+    8% { opacity: 1; }
+    92% { opacity: 1; }
+    100% { left: calc(100% - 7px); opacity: 0; }
+}
+
+@keyframes arrowPulse {
+    0%,100% { opacity: .4; transform: translateX(0); }
+    50% { opacity: 1; transform: translateX(2px); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .executive-consulting-theme .operational-demo .workflow-window::before,
+    .executive-consulting-theme .signal-pulse,
+    .executive-consulting-theme .demo-system-row i { animation: none; }
+}
+
+@media (max-width: 500px) {
+    .executive-consulting-theme .demo-signal-map { margin-left: -6px; margin-right: -6px; }
+    .executive-consulting-theme .signal-node small { display: none; }
+    .executive-consulting-theme .signal-node > span { width: 25px; height: 25px; }
+    .executive-consulting-theme .signal-track { top: 16px; }
+}
+.executive-consulting-theme .operational-demo[data-stage="1"] .signal-node[data-signal-stage="0"],
+.executive-consulting-theme .operational-demo[data-stage="2"] .signal-node[data-signal-stage="0"],
+.executive-consulting-theme .operational-demo[data-stage="2"] .signal-node[data-signal-stage="1"],
+.executive-consulting-theme .operational-demo[data-stage="3"] .signal-node[data-signal-stage="0"],
+.executive-consulting-theme .operational-demo[data-stage="3"] .signal-node[data-signal-stage="1"],
+.executive-consulting-theme .operational-demo[data-stage="3"] .signal-node[data-signal-stage="2"],
+.executive-consulting-theme .operational-demo[data-stage="4"] .signal-node { color: #b88a63; }
+
+/* =====================================================
+   AI VOYY — V5 Metallic Executive Finish
+   ===================================================== */
+
+.executive-consulting-theme {
+    --copper-dark: #6f351d;
+    --copper-mid: #b86f3d;
+    --copper-light: #f0bd92;
+    --chrome-dark: #686868;
+    --chrome-mid: #b8b8b8;
+    --chrome-light: #ffffff;
+    background-image:
+        radial-gradient(circle at 18% 5%, rgba(255,255,255,.035), transparent 26%),
+        radial-gradient(circle at 82% 12%, rgba(196,122,66,.045), transparent 24%);
+}
+
+/* Metallic typography — restrained, executive, and readable. */
+.executive-consulting-theme .gradient-text,
+.executive-consulting-theme .pricing-price,
+.executive-consulting-theme .roi-result-primary strong,
+.executive-consulting-theme .metric-value {
+    background: linear-gradient(115deg,
+        #86502f 0%,
+        #d6915d 24%,
+        #f3c49f 43%,
+        #b56b3d 62%,
+        #f0b27f 78%,
+        #7e4326 100%);
+    background-size: 220% 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #d39a68;
+    animation: metallicTextSweep 9s ease-in-out infinite;
+}
+
+.executive-consulting-theme .hero h1,
+.executive-consulting-theme .section-header h2,
+.executive-consulting-theme .workflow-heading h2 {
+    text-shadow: 0 1px 0 rgba(255,255,255,.08), 0 14px 36px rgba(0,0,0,.3);
+}
+
+/* Chrome/copper buttons with a moving specular highlight. */
+.executive-consulting-theme .btn-primary {
+    position: relative;
+    overflow: hidden;
+    isolation: isolate;
+    color: #171717;
+    border-color: rgba(242,186,140,.72);
+    background: linear-gradient(135deg,
+        #71391f 0%,
+        #b96f3d 19%,
+        #efb988 43%,
+        #c77e49 58%,
+        #8c4827 100%);
+    background-size: 180% 180%;
+    box-shadow:
+        inset 0 1px 0 rgba(255,255,255,.52),
+        inset 0 -1px 0 rgba(74,30,9,.55),
+        0 10px 26px rgba(0,0,0,.25);
+    animation: copperButtonShift 8s ease-in-out infinite;
+}
+
+.executive-consulting-theme .btn-primary::after {
+    content: "";
+    position: absolute;
+    inset: -70% auto -70% -45%;
+    width: 28%;
+    z-index: -1;
+    transform: skewX(-20deg);
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,.58), transparent);
+    animation: buttonGlisten 5.8s ease-in-out infinite;
+}
+
+.executive-consulting-theme .btn-primary:hover {
+    background: linear-gradient(135deg, #8b4827, #d98d56 38%, #f5c69f 52%, #a95d33 100%);
+    border-color: #f0bd92;
+    box-shadow:
+        inset 0 1px 0 rgba(255,255,255,.65),
+        inset 0 -1px 0 rgba(74,30,9,.52),
+        0 14px 32px rgba(0,0,0,.32),
+        0 0 0 1px rgba(220,145,88,.12);
+}
+
+.executive-consulting-theme .btn-secondary,
+.executive-consulting-theme .btn-outline {
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(145deg, rgba(255,255,255,.035), rgba(255,255,255,.008));
+    border-color: rgba(211,154,104,.5);
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.06);
+}
+
+/* Polished, glistening panels without turning the site into a neon UI. */
+.executive-consulting-theme .workflow-window,
+.executive-consulting-theme .pricing-card,
+.executive-consulting-theme .service-card,
+.executive-consulting-theme .roi-calculator,
+.executive-consulting-theme .faq-item {
+    position: relative;
+    overflow: hidden;
+    background-image:
+        linear-gradient(145deg, rgba(255,255,255,.035), transparent 22%, transparent 76%, rgba(196,122,66,.028)),
+        linear-gradient(180deg, #232323, #1d1d1d);
+    box-shadow:
+        inset 0 1px 0 rgba(255,255,255,.055),
+        inset 1px 0 0 rgba(255,255,255,.018),
+        0 22px 50px rgba(0,0,0,.22);
+}
+
+.executive-consulting-theme .workflow-window::before,
+.executive-consulting-theme .pricing-card::before,
+.executive-consulting-theme .service-card::before,
+.executive-consulting-theme .roi-calculator::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -65%;
+    width: 42%;
+    height: 1px;
+    z-index: 4;
+    pointer-events: none;
+    background: linear-gradient(90deg, transparent, rgba(255,224,198,.9), transparent);
+    animation: panelGlisten 10s ease-in-out infinite;
+}
+
+.executive-consulting-theme .workflow-topbar {
+    background: linear-gradient(180deg, #282828 0%, #202020 100%);
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.07), inset 0 -1px 0 rgba(0,0,0,.65);
+}
+
+.executive-consulting-theme .status-pill {
+    background: linear-gradient(135deg, rgba(196,122,66,.18), rgba(111,53,29,.08));
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.08);
+}
+
+/* The demonstration is always live; remove obsolete play-control layout rules. */
+.executive-consulting-theme .workflow-heading {
+    grid-template-columns: 1fr;
+}
+
+.executive-consulting-theme .demo-play-toggle {
+    display: none !important;
+}
+
+/* Sharper metallic workflow nodes. */
+.executive-consulting-theme .signal-node,
+.executive-consulting-theme .demo-stage {
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.055), 0 8px 22px rgba(0,0,0,.2);
+}
+
+.executive-consulting-theme .signal-node.is-active,
+.executive-consulting-theme .demo-stage.is-active {
+    background: linear-gradient(145deg, rgba(229,164,112,.17), rgba(98,48,25,.16));
+    border-color: rgba(229,164,112,.78);
+    box-shadow:
+        inset 0 1px 0 rgba(255,255,255,.14),
+        0 0 0 1px rgba(196,122,66,.12),
+        0 10px 28px rgba(0,0,0,.28);
+}
+
+.executive-consulting-theme .signal-pulse,
+.executive-consulting-theme .activity-dot,
+.executive-consulting-theme .status-pill > span {
+    background: radial-gradient(circle at 35% 30%, #ffe0c4, #d48750 42%, #74391f 100%);
+    box-shadow: 0 0 12px rgba(211,138,83,.58);
+}
+
+@keyframes metallicTextSweep {
+    0%, 100% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+}
+
+@keyframes copperButtonShift {
+    0%, 100% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+}
+
+@keyframes buttonGlisten {
+    0%, 55% { left: -45%; opacity: 0; }
+    62% { opacity: .9; }
+    78% { left: 125%; opacity: 0; }
+    100% { left: 125%; opacity: 0; }
+}
+
+@keyframes panelGlisten {
+    0%, 62% { left: -65%; opacity: 0; }
+    69% { opacity: .9; }
+    84% { left: 125%; opacity: 0; }
+    100% { left: 125%; opacity: 0; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .executive-consulting-theme .gradient-text,
+    .executive-consulting-theme .pricing-price,
+    .executive-consulting-theme .roi-result-primary strong,
+    .executive-consulting-theme .metric-value,
+    .executive-consulting-theme .btn-primary,
+    .executive-consulting-theme .btn-primary::after,
+    .executive-consulting-theme .workflow-window::before,
+    .executive-consulting-theme .pricing-card::before,
+    .executive-consulting-theme .service-card::before,
+    .executive-consulting-theme .roi-calculator::before {
+        animation: none !important;
+    }
+}
+
+/* V6: brighter identity and a simpler executive workflow demonstration. */
+.executive-consulting-theme .nav-logo-img {
+    width: 168px;
+    height: auto;
+    object-fit: contain;
+    filter: brightness(1.18) contrast(1.05) drop-shadow(0 0 10px rgba(196, 122, 66, 0.28));
+}
+.executive-consulting-theme .nav-logo > span { letter-spacing: .06em; }
+
+.executive-consulting-theme .simple-demo .workflow-window {
+    background: linear-gradient(180deg, #242424 0%, #1b1b1b 100%);
+    border-color: rgba(218, 137, 82, .36);
+}
+.executive-consulting-theme .simple-demo .workflow-body { padding: 26px; }
+.executive-consulting-theme .simple-demo .workflow-heading { margin-bottom: 22px; border: 0; padding: 0; background: none; }
+.executive-consulting-theme .simple-demo .workflow-heading h2 { max-width: 460px; margin-bottom: 0; font-size: clamp(1.2rem, 1.7vw, 1.5rem); line-height: 1.3; }
+/* A plain wrapping row of equal-weight pills. Connector arrows are hidden
+   (rather than laid out in their own grid tracks) so the number of stages
+   per row adapts cleanly to the available width without ever squeezing a
+   label below its natural size or overflowing the card. */
+.executive-consulting-theme .simple-flow {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(84px, 1fr));
+    gap: 8px;
+    margin: 22px 0;
+}
+.executive-consulting-theme .simple-flow > i { display: none; }
+.executive-consulting-theme .simple-flow .demo-stage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    padding: 16px 8px 14px;
+    border: 1px solid rgba(255,255,255,.08);
+    border-radius: 14px;
+    background: #1c1c1c;
+    text-align: center;
+    transition: border-color .25s ease, background .25s ease;
+}
+.executive-consulting-theme .flow-node-icon {
+    display: grid;
+    place-items: center;
+    width: 38px;
+    height: 38px;
+    flex: 0 0 38px;
+    border-radius: 50%;
+    border: 1px solid rgba(255,255,255,.1);
+    background: #272727;
+    color: #85807a;
+    transition: border-color .25s ease, background .25s ease, color .25s ease, box-shadow .25s ease;
+}
+.executive-consulting-theme .flow-node-icon svg { display: block; width: 17px; height: 17px; }
+.executive-consulting-theme .simple-flow .demo-stage strong { overflow: visible; font-size: .76rem; color: #d4d4d4; text-overflow: clip; white-space: normal; transition: color .25s ease; }
+.executive-consulting-theme .simple-flow .demo-stage.is-active {
+    border-color: #d9915d;
+    background: rgba(196, 122, 66, .12);
+}
+.executive-consulting-theme .simple-flow .demo-stage.is-active .flow-node-icon {
+    border-color: transparent;
+    background: linear-gradient(145deg, #e0a06a, #b06b38);
+    color: #fff;
+    box-shadow: 0 0 0 4px rgba(196,122,66,.18), 0 4px 14px rgba(196,122,66,.35);
+}
+.executive-consulting-theme .simple-flow .demo-stage.is-active strong { color: #fff; }
+.executive-consulting-theme .simple-flow .demo-stage.is-complete { border-color: rgba(196,122,66,.22); }
+.executive-consulting-theme .simple-flow .demo-stage.is-complete .flow-node-icon { border-color: rgba(196,122,66,.32); background: #2a231e; color: #c99872; }
+.executive-consulting-theme .flow-result-bar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px 24px;
+    margin-top: 18px;
+    padding: 14px 16px;
+    border: 1px solid rgba(196,122,66,.28);
+    border-radius: 12px;
+    background: rgba(196,122,66,.06);
+}
+.executive-consulting-theme .flow-result-highlight {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 0;
+    color: #d9915d;
+    font-size: .8rem;
+}
+.executive-consulting-theme .flow-result-highlight svg { width: 18px; height: 18px; flex: 0 0 18px; }
+.executive-consulting-theme .flow-result-highlight strong { color: #fff; font-weight: 700; }
+.executive-consulting-theme .flow-result-note { margin: 0; color: #777; font-size: .72rem; line-height: 1.5; }
+.executive-consulting-theme .simple-stage-card {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    align-items: flex-start;
+    padding: 24px;
+    border: 1px solid rgba(255,255,255,.09);
+    border-radius: 14px;
+    background: rgba(8,8,8,.24);
+}
+.executive-consulting-theme .simple-stage-copy > span { color: #d68a54; font-size: .72rem; letter-spacing: .12em; text-transform: uppercase; }
+.executive-consulting-theme .simple-stage-copy h3 { margin: 8px 0 10px; color: #fff; font-size: 1.24rem; }
+.executive-consulting-theme .simple-stage-copy p { max-width: 620px; margin: 0; color: #bdbdbd; }
+.executive-consulting-theme .simple-activity {
+    display: grid;
+    grid-template-columns: auto auto 1fr;
+    align-items: center;
+    gap: 10px;
+    margin: 16px 0;
+    padding: 12px 14px;
+    border-left: 1px solid #d58a56;
+    background: rgba(255,255,255,.02);
+}
+.executive-consulting-theme .simple-activity small { color: #8f8f8f; }
+.executive-consulting-theme .simple-activity strong { color: #efefef; font-weight: 500; }
+.executive-consulting-theme .simple-metrics { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+.executive-consulting-theme .simple-metrics > div { padding: 15px; border-top: 1px solid rgba(205,122,67,.42); background: rgba(255,255,255,.018); }
+.executive-consulting-theme .simple-metrics span, .executive-consulting-theme .simple-metrics small { display: block; color: #8f8f8f; font-size: .75rem; }
+.executive-consulting-theme .simple-metrics strong { display: block; margin: 5px 0; color: #fff; font-size: 1.35rem; }
+
+@media (max-width: 780px) {
+    .executive-consulting-theme .simple-stage-card { display: grid; }
+}
+@media (max-width: 560px) {
+    .executive-consulting-theme .simple-flow { grid-template-columns: 1fr; }
+    .executive-consulting-theme .simple-flow .demo-stage { flex-direction: row; justify-content: flex-start; padding: 10px 12px; gap: 12px; text-align: left; }
+    .executive-consulting-theme .simple-metrics { grid-template-columns: 1fr; }
+    .executive-consulting-theme .simple-activity { grid-template-columns: auto 1fr; }
+    .executive-consulting-theme .simple-activity strong { grid-column: 2; }
+    .executive-consulting-theme .flow-result-bar { flex-direction: column; align-items: flex-start; }
+}
