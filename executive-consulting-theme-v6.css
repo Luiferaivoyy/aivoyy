@@ -1212,8 +1212,8 @@
 
 /* V6: brighter identity and a simpler executive workflow demonstration. */
 .executive-consulting-theme .nav-logo-img {
-    width: 168px;
-    height: auto;
+    height: 46px;
+    width: auto;
     object-fit: contain;
     filter: brightness(1.18) contrast(1.05) drop-shadow(0 0 10px rgba(196, 122, 66, 0.28));
 }
